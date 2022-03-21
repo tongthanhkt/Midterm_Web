@@ -17,6 +17,6 @@ app.use(bodParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(homeRoutes.routes);
 app.use(authRoutes.routes);
-
+///////dasdasdasdasd
 
 app.listen(process.env.PORT || 5000, () => console.log('App is listening on url http://localhost:3000'));
