@@ -19,4 +19,4 @@ app.use(homeRoutes.routes);
 app.use(authRoutes.routes);
 
 
-app.listen(3000, () => console.log('App is listening on url http://localhost:3000'));
+app.listen(process.env.PORT || 5000, () => console.log('App is listening on url http://localhost:3000'));
